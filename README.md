@@ -14,6 +14,11 @@ Swahili serves as a vital language for communication, education, and cultural ex
 The data used is from Zindi Africa and has 5151 Swahili articles and 3 features.
 
 ## Data Preparation
-During this process, we checked for null values, and the shape of the dataset, and investigated the distribution of the Swahili news categories.
+During this process, we checked for null values, and the shape of the dataset, and investigated the distribution of the Swahili news categories. we find out that we have an imbalance distribution.
+
 ![Target dist](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/target_dist.jpg)
 
+## Exploratory Data Analysis
+we label-encoded the categories, corrected punctuations where necessary, tokenized our dataset, and created subplots for our tokens.
+
+![Removing stopwords](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/No_stopwords.jpg)

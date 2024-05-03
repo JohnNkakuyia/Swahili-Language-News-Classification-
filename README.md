@@ -68,7 +68,40 @@ lowest log loss of 0.420 among all models.
 Hence, based on both accuracy and log loss, the CatBoostClassifier appears to have performed
 the best in this scenario.
 
+**Model with CatBoostClassifier, LogisticRegression and MultinomialNB**
 
+The observed range of evaluation metrics across the three selected classifiers highlights varying
+strengths and weaknesses in their performance. While MultinomialNB exhibits a lower recall,
+indicating potential limitations in capturing all positive instances, CatBoostClassifier stands out
+with its high precision, showcasing its proficiency in making accurate positive predictions while
+minimizing false positives.
+
+![CatBoostClassifier](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/catboost_matrix.jpg)
+
+## Final Model with StackingClassifier 
+Stacking is a method that combines multiple classification or regression models via a meta-classifier or meta-regressor. The basic idea is to use the predictions of base models as input features to a higher-level model. Here we apply stacking ensembling to CatBoostClassifier, LogisticRegression and MultinomialNB
+
+![StackingClassifier confusion matrix](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/final_confusion_matrix.jpg)
+
+**Interpreting Results**
+
+Rare classes like Burudani and Kimataifa in the dataset pose challenges for the model in
+correctly classifying instances belonging to these classes. Consequently, the confusion matrix
+shows lower values for true positives for these rare classes.
+On the stacking model, we achieved an accuracy of 0.8524, implying that approximately 85.24%
+of the model's predictions were correct. Additionally, with a log loss of 0.3984, it suggests that
+the model's predictions are closely aligned with the actual probabilities.
+Upon examining the confusion matrix, the model exhibits robustness in its predictions,
+effectively capturing the underlying patterns and features of the data. There are no instances of
+mislabeled posts, indicating consistent and precise predictions across all classes. This reliability
+suggests that the model can be trusted for accurate classifications. Given its strong
+performance, the model may be suitable for deployment in real-world applications where
+accurate classification is crucial
+
+## Conclusion 
+While the absence of mislabeled posts is encouraging, further analysis is warranted to ensure
+the model's robustness across diverse datasets or conditions and to identify any potential biases
+or limitations.
 
 
 

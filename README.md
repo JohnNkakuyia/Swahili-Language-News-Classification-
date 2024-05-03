@@ -37,6 +37,7 @@ We find that our model has a good distribution in content when it comes to 'kita
 and 'michezo'. However, this might also treat the class with skewed content distribution as a
 rare class, which could affect our predictions.
 
-[sentence tokenized](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/Sentence_token.jpg)
+![sentence tokenized](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/Sentence_token.jpg){:height="50%" width="50%"}
+
 
 

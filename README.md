@@ -67,12 +67,20 @@ the best in this scenario.
 
 **Model with CatBoostClassifier, LogisticRegression and MultinomialNB**
 
+| Metric    | LogisticRegression | MultinomialNB | CatBoostClassifier |
+|-----------|--------------------|---------------|--------------------|
+| Precision | 0.852504           | 0.828837      | 0.850330           |
+| Recall    | 0.847050           | 0.801242      | 0.839286           |
+| F1-Score  | 0.849144           | 0.806635      | 0.843752           |
+| Accuracy  | 0.847050           | 0.801242      | 0.839286           |
+
+
+
 The observed range of evaluation metrics across the three selected classifiers highlights varying
 strengths and weaknesses in their performance. While MultinomialNB exhibits a lower recall,
 indicating potential limitations in capturing all positive instances, CatBoostClassifier stands out
 with its high precision, showcasing its proficiency in making accurate positive predictions while
 minimizing false positives.
-
 
 ![CatBoostClassifier](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/catboost_matrix.jpg)
 

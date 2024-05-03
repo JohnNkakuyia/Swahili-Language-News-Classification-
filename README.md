@@ -41,19 +41,16 @@ rare class, which could affect our predictions.
 
 We iteratively ran seven models for us to examine which models performed the best in terms of accuracy and log loss.
 
-**MultinomialNB**: This model has an accuracy of 0.821429 and log loss of 0.482447. 
+|    Model                   | Accuracy | Log Loss |
+|---------------------------|----------|----------|
+| Logistic Regression       | 0.847050 | 0.450319 |
+| Decision Tree Classifier  | 0.722826 | 9.963229 |
+| RandomForestClassifier    | 0.825311 | 0.580609 |
+| MultinomialNB             | 0.801242 | 0.514762 |
+| XGBClassifier             | 0.843168 | 0.468921 |
+| LGBMClassifier            | 0.853261 | 0.487481 |
+| CatBoostClassifier        | 0.839286 | 0.437096 |
 
-**Logistic Regression**: The logistic regression model has an accuracy of 0.836957 and a log loss of 0.438784.
-
-**Decision Tree Classifier**: The Decision Tree Classifier has an accuracy of 0.712733 and log loss of	10.354155.
-
-**RandomForestClassifier**: The RandomForest Classifier has an accuracy of 0.840839 and log loss of	0.575659.
-
-**XGBClassifier**: The XGBClassifier has an accuracy of 0.856366	and log loss of 0.457004.
-
-**LGBMClassifier**: The LGBMClassifier has an accuracy of 0.858696 and log loss of 0.464706.
-
-**CatBoostClassifier**: The CatBoostClassifier has an accuracy of 0.847826 and log loss of 0.420255.
 
 **visualizing models performance , accuracy and log loss**
 

@@ -26,3 +26,17 @@ we label-encoded the categories, corrected punctuations where necessary, tokeniz
 ## Baseline Model
 We performed a baseline model without balancing the categories. The baseline performance of the Multinomial Naive Bayes classifier, evaluated using cross-validation, yields an average accuracy of approximately 39.2%. This indicates that the classifier's predictive ability is slightly better than random chance. However, it's essential to consider the class balance within the dataset, as it significantly influences the interpretation of the results
 
+To effectively mitigate the effects of class imbalance in our dataset and improve the
+performance of the predictive model, we apply the Oversampling technique which Increases the
+number of instances in the minority class by generating synthetic samples or duplicating
+existing ones. we noted that when balancing categories our model performed exemplary well with a mean cross-validated accuracy score of about 0.91
+
+**Distributions of Sentence Counts by Category**
+
+We find that our model has a good distribution in content when it comes to 'kitaifa', 'biashara',
+and 'michezo'. However, this might also treat the class with skewed content distribution as a
+rare class, which could affect our predictions.
+
+[sentence tokenized](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/Sentence_token.jpg)
+
+

@@ -20,7 +20,8 @@ During this process, we checked for null values, and the shape of the dataset, a
 
 
 
-![Target dist](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/target_dist.jpg) | category  | count |
+![Target dist](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/target_dist.jpg) 
+| category  | count |
 |-----------|-------|
 | Kitaifa   | 2000  |
 | michezo   | 1720  |

@@ -12,3 +12,8 @@ Swahili serves as a vital language for communication, education, and cultural ex
 * To Promote Swahili Language by contributing to the representation and preservation of Swahili in digital media by ensuring its inclusion and visibility in online products and services.
 ## Data
 The data used is from Zindi Africa and has 5151 Swahili articles and 3 features.
+
+## Data Preparation
+During this process, we checked for null values, and the shape of the dataset, and investigated the distribution of the Swahili news categories.
+![Target dist](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/target_dist.jpg)
+

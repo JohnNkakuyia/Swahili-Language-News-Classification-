@@ -17,6 +17,15 @@ The data used is from [Zindi Africa's platform]( https://zindi.africa/hackathons
 ## Data Preparation
 During this process, we checked for null values, and the shape of the dataset, and investigated the distribution of the Swahili news categories. we find out that we have an imbalance distribution.
 
+| category  | count |
+|-----------|-------|
+| Kitaifa   | 2000  |
+| michezo   | 1720  |
+| Biashara  | 1360  |
+| Kimataifa | 54    |
+| Burudani  | 17    |
+
+
 ![Target dist](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/target_dist.jpg)
 
 ## Exploratory Data Analysis

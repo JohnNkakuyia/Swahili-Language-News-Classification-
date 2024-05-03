@@ -37,7 +37,39 @@ We find that our model has a good distribution in content when it comes to 'kita
 and 'michezo'. However, this might also treat the class with skewed content distribution as a
 rare class, which could affect our predictions.
 
-![sentence tokenized](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/Sentence_token.jpg){:height="50%" width="50%"}
+![sentence tokenized](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/Sentence_token.jpg)
+
+We iteratively ran seven models for us to examine which models performed the best in terms of accuracy and log loss.
+
+**MultinomialNB**: This model has an accuracy of 0.821429 and log loss of 0.482447. 
+
+**Logistic Regression**: The logistic regression model has an accuracy of 0.836957 and a log loss of 0.438784.
+
+**Decision Tree Classifier**: The Decision Tree Classifier has an accuracy of 0.712733 and log loss of	10.354155.
+
+**RandomForestClassifier**: The RandomForest Classifier has an accuracy of 0.840839 and log loss of	0.575659.
+
+**XGBClassifier**: The XGBClassifier has an accuracy of 0.856366	and log loss of 0.457004.
+
+**LGBMClassifier**: The LGBMClassifier has an accuracy of 0.858696 and log loss of 0.464706.
+
+**CatBoostClassifier**: The CatBoostClassifier has an accuracy of 0.847826 and log loss of 0.420255.
+
+**visualizing models performance , accuracy and log loss**
+
+![model comparison](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/model_comparison.jpg)
+
+Accuracy: The accuracy of the model on the test data, measuring the proportion of correctly
+classified instances. Log Loss: The logarithmic loss (log loss) of the model on the test data,
+assessing the performance of a classification model where the prediction output is a probability
+value between 0 and 1. According to the results, the LGBMClassifier achieved the highest
+accuracy of 0.859, closely followed by the CatBoostClassifier with an accuracy of 0.848. However,considering both accuracy and log loss, it's noteworthy that the CatBoostClassifier attained the
+lowest log loss of 0.420 among all models.
+Hence, based on both accuracy and log loss, the CatBoostClassifier appears to have performed
+the best in this scenario.
+
+
+
 
 
 

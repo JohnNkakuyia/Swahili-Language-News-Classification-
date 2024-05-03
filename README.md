@@ -1,4 +1,4 @@
-# Swahili-Language-News-Classification-
+# Swahili-Language-News-Classification
 <img src="News.gif" alt="News GIF" style="max-width: 100%;">
 
 ## Project Overview
@@ -11,7 +11,7 @@ Swahili serves as a vital language for communication, education, and cultural ex
 * To Enhance User Experience by improving the accessibility of Swahili news content by enabling automated categorization on online news platforms.
 * To Promote Swahili Language by contributing to the representation and preservation of Swahili in digital media by ensuring its inclusion and visibility in online products and services.
 ## Data
-The data used is from Zindi Africa and has 5151 Swahili articles and 3 features.
+The data used is from [Zindi Africa's platform]( https://zindi.africa/hackathons/swahili-news-classification-challenge/data.)and has 5151 Swahili articles and 3 features.
 
 ## Data Preparation
 During this process, we checked for null values, and the shape of the dataset, and investigated the distribution of the Swahili news categories. we find out that we have an imbalance distribution.

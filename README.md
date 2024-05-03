@@ -76,6 +76,7 @@ indicating potential limitations in capturing all positive instances, CatBoostCl
 with its high precision, showcasing its proficiency in making accurate positive predictions while
 minimizing false positives.
 
+
 ![CatBoostClassifier](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/catboost_matrix.jpg)
 
 ## Final Model with StackingClassifier 

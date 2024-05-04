@@ -101,17 +101,9 @@ Stacking is a method that combines multiple classification or regression models 
 ![StackingClassifier confusion matrix](https://github.com/JohnNkakuyia/Swahili-Language-News-Classification-/blob/main/images/final_confusion_matrix.jpg)
 
 **Interpreting Results**
+On the stacking model, we achieved an accuracy of 0.8524, implying that approximately 85.24% of the model's predictions were correct. Additionally, with a log loss of 0.3984, it suggests that the model's predictions are closely aligned with the actual probabilities.
 
- Consequently, the confusion matrix shows lower values for true positives for these rare classes.
-On the stacking model, we achieved an accuracy of 0.8524, implying that approximately 85.24%
-of the model's predictions were correct. Additionally, with a log loss of 0.3984, it suggests that
-the model's predictions are closely aligned with the actual probabilities.
-Upon examining the confusion matrix, the model exhibits robustness in its predictions,
-effectively capturing the underlying patterns and features of the data. There are no instances of
-mislabeled posts, indicating consistent and precise predictions across all classes. This reliability
-suggests that the model can be trusted for accurate classifications. Given its strong
-performance, the model may be suitable for deployment in real-world applications where
-accurate classification is crucial
+Upon examining the confusion matrix, the model exhibits robustness in its predictions, effectively capturing the underlying patterns and features of the data. There are no instances of mislabeled posts, indicating consistent and precise predictions across all classes. This reliability suggests that the model can be trusted for accurate classifications. Given its strong performance, the model may be suitable for deployment in real-world applications where accurate classification is crucial.
 
 ## findings
 * **Challenges with Rare Classes:** The model faces difficulties in correctly classifying instances belonging to rare classes such as "Burudani" and "Kimataifa." This is evident from the lower true positive values for these classes in the confusion matrix.
@@ -124,7 +116,7 @@ accurate classification is crucial
   
 ## Recommendations 
 * **Addressing Rare Class Challenge:** To improve classification performance for rare classes like "Burudani" and "Kimataifa," consider strategies such as collecting more data specific to these classes 
-*Investigate domain adaptation techniques to address language variations and improve model robustness across different text genres.
+* Investigate domain adaptation techniques to address language variations and improve model robustness across different text genres.
 * Collaborate with linguists and domain experts to develop specialized resources and tools for Swahili language processing tasks.
 
 ## Next Step
